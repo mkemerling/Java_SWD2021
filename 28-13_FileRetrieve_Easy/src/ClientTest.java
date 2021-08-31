@@ -1,0 +1,39 @@
+import javax.swing.JFrame;
+
+/**
+ * This is the ClientTest class that holds the main method for the main method of client
+ */
+public class ClientTest
+{
+    /**
+     * This is the main method for the client class, creates new client application
+     * @param args
+     */
+    public static void main(String[] args)
+    {
+        Client application; // declare client application
+
+        // if no command line args
+        if (args.length == 0)
+            application = new Client("127.0.0.1"); // connect to localhost
+        else
+            application = new Client(args[0]); // use args to connect
+
+        application.runClient(); // run client application
+    }
+}
+
+/**************************************************************************
+ * (C) Copyright 1992-2018 by Deitel & Associates, Inc. and               *
+ * Pearson Education, Inc. All Rights Reserved.                           *
+ *                                                                        *
+ * DISCLAIMER: The authors and publisher of this book have used their     *
+ * best efforts in preparing the book. These efforts include the          *
+ * development, research, and testing of the theories and programs        *
+ * to determine their effectiveness. The authors and publisher make       *
+ * no warranty of any kind, expressed or implied, with regard to these    *
+ * programs or to the documentation contained in these books. The authors *
+ * and publisher shall not be liable in any event for incidental or       *
+ * consequential damages in connection with, or arising out of, the       *
+ * furnishing, performance, or use of these programs.                     *
+ *************************************************************************/
