@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"<Unnamed>","l":"imageRotator.buttonStart"},{"p":"<Unnamed>","l":"imageRotator.buttonStop"},{"p":"<Unnamed>","l":"imageRotator.degreeHandler"},{"p":"<Unnamed>","l":"Driver"},{"p":"<Unnamed>","l":"imageRotator"},{"p":"<Unnamed>","l":"imageRotator.slideChange"}]
